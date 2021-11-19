@@ -1,4 +1,4 @@
-
+package queues;
 public class Dog implements Animal {
 	private String species = "dog";
 

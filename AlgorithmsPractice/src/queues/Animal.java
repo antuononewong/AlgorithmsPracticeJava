@@ -1,3 +1,4 @@
+package queues;
 
 interface Animal {
 	

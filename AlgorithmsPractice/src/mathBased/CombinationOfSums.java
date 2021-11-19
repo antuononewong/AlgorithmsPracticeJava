@@ -1,3 +1,4 @@
+package mathBased;
 import java.util.ArrayList;
 
 public class CombinationOfSums {

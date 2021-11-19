@@ -1,3 +1,4 @@
+package bitwiseMath;
 
 public class SingleNumber {
 	public static int singleNumber(int[] nums) {

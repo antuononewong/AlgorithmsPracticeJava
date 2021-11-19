@@ -1,4 +1,4 @@
-
+package queues;
 public class Cat implements Animal {
 	private final String species = "cat";
 

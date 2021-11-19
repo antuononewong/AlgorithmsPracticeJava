@@ -1,3 +1,4 @@
+package trees;
 import org.junit.Test;
 
 public class SameTree {

@@ -1,3 +1,4 @@
+package linkedList;
 
 public class IntersectionLinkedLists {
 	public static class ListNode {

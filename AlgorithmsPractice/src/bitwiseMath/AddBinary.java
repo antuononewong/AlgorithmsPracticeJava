@@ -1,3 +1,4 @@
+package bitwiseMath;
 import java.util.Arrays;
 import java.util.HashSet;
 
@@ -66,15 +67,9 @@ public class AddBinary {
 		String str = "how  doo  are";
 		String perm = "tacocatkk";
 		
-		HashSet<Integer> set = new HashSet<Integer>();
-		set.add(1);
-		set.add(2);
-		set.add(3);
-		set.stream().forEach(i->System.out.println(i));
-		
-		//System.out.println(checkPermutation(perm));
-		//System.out.println(addBinary(a, b));
-		//System.out.println(Arrays.toString(str.split(" ")));
+		System.out.println(checkPermutation(perm));
+		System.out.println(addBinary(a, b));
+		System.out.println(Arrays.toString(str.split(" ")));
 	}
 }
 
