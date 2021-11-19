@@ -30,7 +30,7 @@ public class AnimalQueue {
     }
 
     public Animal dequeueCat() { //O(N)  O(1)
-        Iterator it = queue.descendingIterator();
+        Iterator<Animal> it = queue.descendingIterator();
         int count = queue.size() - 1;
 
         while (it.hasNext()) {
@@ -45,7 +45,7 @@ public class AnimalQueue {
     }
     
     public Animal dequeueSpecies(String str) { //O(N)  O(1)
-        Iterator it = queue.descendingIterator();
+        Iterator<Animal> it = queue.descendingIterator();
         int count = queue.size() - 1;
 
         while (it.hasNext()) {
